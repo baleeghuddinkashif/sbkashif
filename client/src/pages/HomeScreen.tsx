@@ -1,5 +1,6 @@
 import { useRef, useEffect } from "react";
 import styled from "styled-components";
+import Index from "./Index";
 
 const VideoContainer = styled.div`
   position: fixed;
@@ -89,10 +90,7 @@ const HomeScreen = () => {
         </Video>
       </VideoContainer>
       <ContentContainer>
-        <div>
-          <h1>Welcome to Your Website</h1>
-          <p>This is your home screen content.</p>
-        </div>
+        <Index />
       </ContentContainer>
     </>
   );

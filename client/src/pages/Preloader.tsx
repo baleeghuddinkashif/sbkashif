@@ -51,7 +51,7 @@ const Preloader = ({ onFinish }: any) => {
     const preloaderTimer = setTimeout(() => {
       setIsVisible(false);
       onFinish(); // Callback to notify the parent component that the preloader has finished
-    }, 5000); // 5000 milliseconds (5 seconds)
+    }, 3000); // 5000 milliseconds (5 seconds)
 
     const flashingTimer = setTimeout(() => {
       // Start flashing animation after 1 second
